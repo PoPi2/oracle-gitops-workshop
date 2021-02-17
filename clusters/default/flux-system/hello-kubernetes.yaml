@@ -16,6 +16,8 @@ spec:
   targetNamespace: default
   values:
       message: Hello Guy and Or, we meet again!
+      image:
+      repository: not-exists
   valuesFrom:
   - kind: ConfigMap
     name: myconfig
