@@ -15,8 +15,8 @@ spec:
       interval: 1m
   targetNamespace: default
   values:
-      message: Hello Guy and Or, we meet again!
-      image:
+    message: This is new one
+    image:
       repository: not-exists
   valuesFrom:
   - kind: ConfigMap
